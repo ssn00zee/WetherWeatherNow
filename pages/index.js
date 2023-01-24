@@ -15,6 +15,8 @@ const darkTheme = createTheme({
   },
 });
 
+const apiKey = process.env.API_KEY
+
 export default function Home() {
 
   const [data, setData] = useState({})
@@ -24,7 +26,6 @@ export default function Home() {
   const [imgType, setImgType] = useState('')
   
 
-  let apiKey = '9d723e2a314f7a4d9684342df385a9a4'
   let lang = 'en'
   let units = 'metric'
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=${units}&appid=${apiKey}&lang=${lang}`
