@@ -55,7 +55,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Clint's Weather API</title>
+        <title>Clints Weather API</title>
         <meta name="description" content="Weather API" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -70,7 +70,7 @@ export default function Home() {
         variant='h1'
         sx={{fontSize: 36}}
       >
-        Don't have a window like me? <br/>
+        Dont have a window like me? <br/>
         Check the weather right now!
       </Typography>
 
